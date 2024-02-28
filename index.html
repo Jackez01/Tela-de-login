@@ -4,8 +4,44 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tela de login</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anta&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
+
+
 <body>
+
+  <form id="my-form">
+  <div class="page">
   
+    <fieldset>
+      <div class="image">
+      <img src="./Images/do-utilizador.png" alt="Icone de usuário" width="50px">
+    </div>
+
+    <div class="input-wrapper">
+      <label for="email-login">Email ID</label>
+      <input type="email" id="email-login" required/>
+    </div>
+
+    <div class="input-wrapper">
+      <label for="login-password">Password</label>
+      <input type="password" id="login-password" required/>
+    </div>
+
+    <div class="checkbox-wrapper">
+      <label for="remember-me">Remember-me</label>
+      <input type="checkbox" id="remember-me" />
+    </div>
+
+    </fieldset>
+  </form>
+  
+  <footer>
+    <input class="button" type="submit" form="my-form" value="Login"/>
+  </footer>
+</div>
 </body>
 </html>
